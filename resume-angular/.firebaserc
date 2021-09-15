@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "resumewebsite-51910": {
+      "hosting": {
+        "resume-angular": [
+          "resumewebsite-51910"
+        ]
+      }
+    }
+  }
+}
