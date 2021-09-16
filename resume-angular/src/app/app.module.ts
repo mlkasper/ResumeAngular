@@ -11,11 +11,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { environment } from 'src/environments/environment';
-import { AngularFireModule } from '@angular/fire/compat';
-import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
-
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 import { HeaderComponent } from './header/header.component';
+
+//import { AngularFireModule } from '@angular/fire'; 
+//import { AngularFirestoreModule } from '@angular/fire/firestore';
+
 
 
 @NgModule({
@@ -23,8 +24,7 @@ import { HeaderComponent } from './header/header.component';
     AppComponent,
     ProjectComponent,
     ComingSoonComponent,
-    HeaderComponent,
-
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -33,8 +33,9 @@ import { HeaderComponent } from './header/header.component';
     MatIconModule, 
     MatToolbarModule, 
     BrowserAnimationsModule, 
-    AngularFireModule.initializeApp(environment.firebase), 
-    AngularFirestoreModule, 
+    //AngularFireModule.initializeApp(environment.firebase), 
+    //AngularFirestoreModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

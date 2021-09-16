@@ -1,7 +1,4 @@
 import { Component } from '@angular/core';
-import { FirebaseApp } from '@angular/fire/compat';
-import { Project } from './project/project';
-
 
 @Component({
   selector: 'app-root',
@@ -11,8 +8,5 @@ import { Project } from './project/project';
 export class AppComponent {
   title = 'resume-angular';
 
-  constructor() { 
-    //do something
-  }
 
 }

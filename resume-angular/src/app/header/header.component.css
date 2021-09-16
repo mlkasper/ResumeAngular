@@ -5,18 +5,3 @@
 a { 
     text-decoration: none;
 }
-.name-header {
-    text-decoration: none;
-    color: white; 
-}
-.header-link:hover{ 
-    text-decoration: underline;
-    color: #e3e3e3;
-}
-.header-link { 
-    color: white;
-}
-
-.spacer {
-    flex: 1 1 auto;
-  }
