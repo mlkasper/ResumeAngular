@@ -4,8 +4,8 @@ import { ProjectComponent } from './project/project.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 
 const routes: Routes = [
-  { path: 'project-component', component: ProjectComponent },
-  { path: 'home-component', component: ComingSoonComponent}
+  { path: 'projects', component: ProjectComponent },
+  { path: 'home', component: ComingSoonComponent}
 ];
 
 @NgModule({
