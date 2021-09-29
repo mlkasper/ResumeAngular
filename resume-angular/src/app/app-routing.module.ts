@@ -5,8 +5,9 @@ import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 import { AppComponent } from './app.component';
 
 const routes: Routes = [
+  //order matters DOM Will not complile correctly if in the wrong order. 
   { path: 'projects', component: ProjectComponent },
-  {path: '**', redirectTo: 'home', pathMatch: 'full'},
+  { path: '**', redirectTo: 'home', pathMatch: 'full'} , //redirects homepage to our coming soon router
   { path: 'home', component: ComingSoonComponent },
   
   
